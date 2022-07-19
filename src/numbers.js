@@ -6,7 +6,7 @@
   Comportamento:
     - numbers([2, 3, 4]); // Retorna: true
     - numbers([2, 'errado', 5]); // Retorna: false
-*/
+    */
 
 const numbers = (myArray) => {
   for (let i = 0; i < myArray.length; i += 1) {
@@ -16,5 +16,7 @@ const numbers = (myArray) => {
   }
   return true;
 };
+
+console.log(numbers([3, 6, 7, 8, 9]));
 
 module.exports = numbers;
